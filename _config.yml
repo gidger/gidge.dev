@@ -16,7 +16,7 @@
 title: gidge.dev
 #subtitle: "Version 2.0"
 title_separator: "|"
-logo: "/assets/images/CoffeeIcon.png"
+logo: "/assets/images/icons/CoffeeIcon.png"
 email: stephen@gidge.dev
 description: >- # this means to ignore newlines until "baseurl:"
   The personal site of Stephen Gidge. | Messing about, hoping to make some cool stuff. Let me tell you the results.
