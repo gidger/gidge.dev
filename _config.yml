@@ -65,7 +65,7 @@ plugins:
 author:
   name   : "Stephen Gidge"
   avatar : "/assets/images/WebsitePersonalIcon.png"
-  bio    : "Trying to put those years of engineering education to use. My passions lie in analytics & optimization, process improvement and just making cool stuff."
+  bio    : "Trying to put those years of engineering education to use. My passions lie in analytics & optimization, process improvement, and just making cool stuff."
   location: "Toronto, Canada"
   links:
     # label: "Website"
