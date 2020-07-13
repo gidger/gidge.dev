@@ -19,7 +19,7 @@ title_separator: "|"
 logo: "/assets/images/icons/CoffeeIcon.png"
 email: stephen@gidge.dev
 description: >- # this means to ignore newlines until "baseurl:"
-  The personal site of Stephen Gidge. | Messing about, hoping to make some cool stuff. Let me tell you the results.
+  The personal site of Stephen Gidge. |  Let’s make great things together.
 #twitter_username: username
 # github_username: gidger
 github: [metadata]
@@ -31,12 +31,12 @@ search: true
 
 # Build settings
 markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes
+remote_theme: mmistakes/minimal-mistakes@4.19.3
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/Toronto
 
 include:
   - _pages
@@ -65,7 +65,8 @@ plugins:
 author:
   name   : "Stephen Gidge"
   avatar : "/assets/images/WebsitePersonalIcon.png"
-  bio    : "Trying to put those years of engineering education to use. Analytics & optimization, process improvement and just making cool stuff."
+  bio    : "Trying to put those years of engineering education to use. My passions lie in analytics & optimization, process improvement and just making cool stuff."
+  location: "Toronto, ON, Canada"
   links:
     # label: "Website"
     #  icon: "fas fa-fw fa-link"
@@ -73,6 +74,9 @@ author:
     #- label: "Twitter"
     #  icon: "fab fa-fw fa-twitter-square"
     #  url: "https://twitter.com/"
+    - label: "Email"
+      icon: "fas fa-fw fa-paper-plane"
+      url: mailto:stephen@gidge.dev
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/gidger"
@@ -81,7 +85,10 @@ author:
       url: "https://linkedin.com/in/gidge"
 
 footer:
-  links:
+  links:    
+    - label: "Email"
+      icon: "fas fa-fw fa-paper-plane"
+      url: mailto:stephen@gidge.dev
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/gidger"
