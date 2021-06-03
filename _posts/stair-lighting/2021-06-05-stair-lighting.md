@@ -1,15 +1,20 @@
 ---
-title: "Cascading Stair Lighting"
+title: "Cascading LED Stair Lights"
 date: 2021-06-02T15:34:30-04:00
+header:
+  overlay_image: assets/posts/stair-lighting/build/header.jpg
+  overlay_filter: 0.5
+  teaser: assets/posts/stair-lighting/build/header.jpg
+excerpt: "Arduino controlled understair lighting."
 categories:
-  - Stair Lighting
+  - Stair Lights
 tags:
   - LED
 ---
 
 My household has a problem.
 
-The main staircase has very poor lighting. There is no light fixture that illuminates the stairs, and as a result they can be quite treacherous overnight. Any sensible person would have thought "hey, let's just leave lights on in the nearest rooms at the top and bottom", and we did as well. But as you can guess by the existence of this blog post, we wanted to do something a little more fun and challenging to pass the time. This is the story of how my roommate Ben and overengineered a motion activated understair lighting system.
+The main staircase has very poor lighting. There is no light fixture that illuminates the stairs, and as a result they can be quite treacherous overnight. Any sensible person would have thought "hey, let's just leave lights on in the nearest rooms at the top and bottom", and we did as well. But as you can guess by the existence of this blog post, we wanted to do something a little more fun and challenging to pass the time. This is the story of how my roommate Ben and I overengineered a motion activated understair lighting system.
 
 Why? 
 
@@ -25,7 +30,7 @@ Oh hey, you're still reading! Thanks!
 
 After some light research we found inspiration in lights like these.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a10b5c8b-4a51-4f7a-af2f-d3acc2e79c8b/006bef502acd7df6cdaf5c33f220aff6.jpg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a10b5c8b-4a51-4f7a-af2f-d3acc2e79c8b/006bef502acd7df6cdaf5c33f220aff6.jpg)
+![image](/assets/posts/stair-lighting/build/header.jpg)
 
 Static understair lights.
 
