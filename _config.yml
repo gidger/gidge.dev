@@ -75,25 +75,25 @@ author:
     #  icon: "fab fa-fw fa-twitter-square"
     #  url: "https://twitter.com/"
     - label: "Email"
-      icon: "fas fa-fw fa-paper-plane"
+      icon: "fas fa-paper-plane"
       url: mailto:stephen@gidge.dev
     - label: "GitHub"
-      icon: "fab fa-fw fa-github"
+      icon: "fab fa-github"
       url: "https://github.com/gidger"
     - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
+      icon: "fab fa-linkedin"
       url: "https://linkedin.com/in/gidge"
 
 footer:
   links:    
     - label: "Email"
-      icon: "fas fa-fw fa-paper-plane"
+      icon: "fas fa-paper-plane"
       url: mailto:stephen@gidge.dev
     - label: "GitHub"
-      icon: "fab fa-fw fa-github"
+      icon: "fab fa-github"
       url: "https://github.com/gidger"
     - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
+      icon: "fab fa-linkedin"
       url: "https://linkedin.com/in/gidge"
 
 defaults:
