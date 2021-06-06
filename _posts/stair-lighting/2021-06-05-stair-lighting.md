@@ -1,6 +1,7 @@
 ---
 title: "Cascading LED Stair Lights"
 date: 2021-06-05T15:34:30-04:00
+show_date: true
 header:
   overlay_image: assets/posts/stair-lighting/build/header.jpg
   overlay_filter: 0.5
