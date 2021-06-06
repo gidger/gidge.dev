@@ -6,7 +6,7 @@ header:
   overlay_image: assets/posts/stair-lighting/build/header.jpg
   overlay_filter: 0.5
   teaser: assets/posts/stair-lighting/build/header.jpg
-excerpt: "Arduino controlled understair lighting."
+excerpt: "Motion activated understair lighting, powered by Arduino."
 categories:
   - Stair Lights
 tags:
