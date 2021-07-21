@@ -1,6 +1,6 @@
 ---
 title: "LED Matrix NHL Scoreboard"
-date: 2021-07-20T15:34:30-04:00
+date: 2021-07-21T09:00:00-04:00
 show_date: true
 header:
   overlay_image: assets/posts/nhl-scoreboard/header.jpg
@@ -64,7 +64,7 @@ The remainder of this blog post will dive into more details of the project, how 
 
 ## Hardware
 
-The hardware for this build is very simple. At the heart of the project is a Raspberry Pi 3B. The LED matrix is a 32x64 P4 hub75 matrix that I picked up on AliExpress for ~$20 CAD. Between the Raspberry Pi and the matrix is a Adafruit RGB Matrix Bonnet (this can be purchased from Digikey if you're outside of the US). This bonnet makes driving the matrix with a Raspberry Pi nearly plug and play (AKA absolutely invaluable to the project). Powering everything is a 5V 8A power supply, also from AliExpress. And that's it!
+The hardware for this build is very simple. At the heart of the project is a Raspberry Pi 3B. The LED matrix is a 32x64 P4 hub75 matrix that I picked up on AliExpress for ~$20 CAD. Between the Raspberry Pi and the matrix is a Adafruit RGB Matrix Bonnet (this can be purchased from Digikey if you're outside of the US). This bonnet makes driving the matrix with a Raspberry Pi nearly plug and play (i.e. absolutely invaluable to the project). Powering everything is a 5V 8A power supply, also from AliExpress. And that's it!
 
 <figure style="text-align: center;">
   <a href="{{ site.url }}{{ site.baseurl }}/assets/posts/nhl-scoreboard/rpi-far.jpg"><img src="{{ site.url }}{{ site.baseurl }}/assets/posts/nhl-scoreboard/rpi-far.jpg" style='width: 85%;'>
@@ -109,12 +109,12 @@ Each game in the list is looped through and its image is displayed on the matrix
 <figure style="text-align: center;">
   <a href="{{ site.url }}{{ site.baseurl }}/assets/posts/nhl-scoreboard/demo-goal.gif"><img src="{{ site.url }}{{ site.baseurl }}/assets/posts/nhl-scoreboard/demo-goal.gif" style='width: 85%;'>
   </a>
-  <figcaption style="text-align: left;">Seems like I didn't have a video of the goal animation that after implementing the fade transition... Oops. Scan lines are due to the camera and are not visible to the human eye.</figcaption>
+  <figcaption style="text-align: left;">Seems like I don't have a video of the goal animation from after I implemented the fade transition... Oops, I'll get that next season. Scan lines are due to the camera and are not visible to the human eye.</figcaption>
 </figure>
 
-Images are built using the Python Imaging Library. Each image is built just before it is displayed. That is, in the split second between the fading transitions. This is to negate flicker that is caused by the computations needed to build the image. If the next image was built while something was being displayed on the matrix, some very obvious flickering would occur.  Displaying images on the matrix is handled by hzeller's wonderful rpi-rgb-led-matrix package. This allows you to display images on the matrix and adjust the display settings with ease through it's simple to use Python bindings. This project truly would have been impossible without it. More info on this module can be found on [hzeller's GitHub](https://github.com/hzeller/rpi-rgb-led-matrix).
+Images are built using the Python Imaging Library. Each image is built just before it is displayed. That is, in the split second between the fading transitions. This is to negate flicker that is caused by the computations needed to build the image. If the next image was built while something was being displayed on the matrix, some very obvious flickering would occur.  Displaying images on the matrix is handled by hzeller's wonderful rpi-rgb-led-matrix package. This allows you to display images on the matrix and adjust the display settings with ease through it's simple to use Python bindings. This project truly would have been impossible without it. More info on this package can be found on [hzeller's GitHub](https://github.com/hzeller/rpi-rgb-led-matrix).
 
-You'll notice hzeller's module being used anytime the options or matrix objects are mentioned within the code.
+You'll notice hzeller's package being used anytime the options or matrix objects are mentioned within the code.
 
 ```python
 # Configure options for the matrix.
