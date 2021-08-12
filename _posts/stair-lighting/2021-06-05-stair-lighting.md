@@ -58,7 +58,7 @@ With Ben and myself both having experience with Arduinos in the past, we decided
 
 Unfortunately, the digital pins required for 16 transistors (there's four more stairs beyond the landing) and two ultrasonic sensors exceeds the number of pins available on a standard Arduino Uno. As we already had a couple of Arduino Unos lying around, we decided to set up a master-slave system in order to gain access to the additional digital pins.
 
-Well... until one of them tragically died as all electronics everyually do. Then we decided to simplify the whole thing and order an Arduino Mega (with it's deluge of digital pins), simplifying things greatly.
+Well... until one of them tragically died as all electronics eventually do. Then we decided to simplify the whole thing and order an Arduino Mega (with it's deluge of digital pins), simplifying things greatly.
 
 <div style="text-align: center;">
   <figure>
