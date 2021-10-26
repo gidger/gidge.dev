@@ -91,7 +91,9 @@ I may publish a follow-up to this article once the last few loose ends of the pr
 
 Until next time,
 
-*Stephen*
+Stephen
+
+_Check out [Part 2](https://gidge.dev/stair%20lights/stair-lighting-pt2/) for a look at how I made these lights react to music real time!_
 
 P.S. Here's one last gif of the lights in action.
 
