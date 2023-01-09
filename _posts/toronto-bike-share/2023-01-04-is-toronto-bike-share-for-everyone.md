@@ -29,7 +29,7 @@ tags:
   </figcaption>
 </figure><br>
 
-This past fall I spent some time looking into Toronto’s Bike Share and cycling infrastructure networks. This research culminated into the report you see above.
+This past fall, I spent some time looking into Toronto’s Bike Share and cycling infrastructure networks. This research culminated into the report you see above.
 
 Some background – I am passionate about cycling, riding nearly every day for most of the year as my primary source of transportation. As such, cycling infrastructure is of huge importance to me, as is getting more people riding during this ongoing global climate emergency.
 
