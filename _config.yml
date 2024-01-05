@@ -65,7 +65,7 @@ plugins:
 author:
   name   : "Stephen Gidge, P.Eng."
   avatar : "/assets/site/personal-icon.png"
-  bio    : "Puttting those years of engineering education to good use. Lifelong hacker, coffee fiend, & certified data dork."
+  bio    : "Puttting that engineering education to good use. Lifelong hacker, coffee fiend, & certified data dork."
   location: "Toronto, Canada"
   links:
     # label: "Website"
