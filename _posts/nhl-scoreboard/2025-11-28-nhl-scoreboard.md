@@ -1,15 +1,15 @@
 ---
-title: "LED Matrix NHL Scoreboard | Updates 2025-11"
+title: "LED Matrix NHL Scoreboard — Updates 2025-11"
 date: 2025-11-28T09:00:00-04:00
 show_date: true
 header:
-  overlay_image: assets/posts/nhl-scoreboard/2025-11/header.png
+  overlay_image: assets/posts/nhl-scoreboard/2025-11/ex_nhl_fav_team_next_game.jpg
   overlay_filter: 0.5
-  teaser: assets/posts/nhl-scoreboard/2025-11/header.png
+  teaser: assets/posts/nhl-scoreboard/2025-11/ex_nhl_fav_team_next_game.jpg
   actions:
     - label: "GitHub Repository"
       url: "https://github.com/gidger/rpi-led-nhl-scoreboard"
-excerpt: "Real time NHL hockey scoreboard, powered by Raspberry Pi."
+excerpt: "November 2025 updates to the Raspberry Pi LED NHL Scoreboard."
 categories:
   - NHL Scoreboard
 tags:
@@ -24,7 +24,7 @@ Hey there, long time no post... Anyhow, I'm alive and here's some updates on the
 
 Over the last month, I've refactored the entire solution, added new functionality, and laid the foundation to expand it to additional sports.
 
-Anyhow, here's some of the new features:
+Here's some of the new features:
 - Installation has moved to Docker, greatly simplifying the install and setup process.
 - You'll now have the ability to set a favourite team and see that team's next game.
 - You can view standings for any combination of wildcard, division, conference, or overall.
@@ -46,7 +46,7 @@ I'll write here more often as the project progresses. Some planned upcoming func
 - Add in a 'leaders' scene, showing the goal/point/whatever leaders for a league.
 - Create a local web app to configure settings via a GUI rather than manually editing config.yaml.
 
-You can view all my code for this project, along with installation instructions, at my GitHub Repository [here](https://github.com/gidger/rpi-led-nhl-scoreboard).
+You can view all the code for this project, along with installation instructions, at my GitHub Repository [here](https://github.com/gidger/rpi-led-nhl-scoreboard).
 
 If you have any questions feel free to shoot me an email at [stephen@gidge.dev](mailto: stephen@gidge.dev).
 
