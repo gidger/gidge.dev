@@ -20,7 +20,7 @@ toc: false
 
 ---
 
-Hey there, long time no post... Anyhow, I'm alive and here's some updates on the NHL RGB LED Scoreboard project.
+Hey there, long time no post... Anyhow, I'm alive and here's some updates on the NHL LED Scoreboard project.
 
 Over the last month, I've refactored the entire solution, added new functionality, and laid the foundation to expand it to additional sports.
 
@@ -43,7 +43,7 @@ Here's some of the new features:
 
 I'll write here more often as the project progresses. Some planned upcoming functionality includes:
 - Expanding to additional sports. Current plan is to integrate the NBA in the winter, and MLB in the spring. American football is dumb, so someone else can tackle that one. Open source, hurrah!
-- Add in a 'leaders' scene, showing the goal/point/whatever leaders for a league.
+- Add in a "leaders" scene, showing the goal/point/whatever leaders for a league.
 - Create a local web app to configure settings via a GUI rather than manually editing config.yaml.
 
 You can view all the code for this project, along with installation instructions, at my GitHub Repository [here](https://github.com/gidger/rpi-led-nhl-scoreboard).
