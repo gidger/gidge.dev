@@ -3,9 +3,9 @@ title: "LED Matrix NHL Scoreboard"
 date: 2021-07-21T09:00:00-04:00
 show_date: true
 header:
-  overlay_image: assets/posts/nhl-scoreboard/header.jpg
+  overlay_image: assets/posts/nhl-scoreboard/2021-07/header.jpg
   overlay_filter: 0.5
-  teaser: assets/posts/nhl-scoreboard/header.jpg
+  teaser: assets/posts/nhl-scoreboard/2021-07/header.jpg
   actions:
     - label: "GitHub Repository"
       url: "https://github.com/gidger/rpi-led-nhl-scoreboard"
@@ -28,8 +28,8 @@ About five years ago I had what I thought was an interesting and novel idea – 
 
 
 <figure style="text-align: center;">
-  <a href="{{ site.url }}{{ site.baseurl }}/assets/posts/nhl-scoreboard/local-rink-scoreboard.jpg">
-    <img src="{{ site.url }}{{ site.baseurl }}/assets/posts/nhl-scoreboard/local-rink-scoreboard.jpg" style='width: 85%;'>
+  <a href="{{ site.url }}{{ site.baseurl }}/assets/posts/nhl-scoreboard/2021-07/local-rink-scoreboard.jpg">
+    <img src="{{ site.url }}{{ site.baseurl }}/assets/posts/nhl-scoreboard/2021-07/local-rink-scoreboard.jpg" style='width: 85%;'>
   </a>
 </figure>
 
@@ -48,7 +48,7 @@ This past winter, I decided to finally resurrect this idea. Upon researching the
 Upon doing some research, I found that a Reddit user by the name of /u/RiffnShred had already completed a [very similar project](https://www.reddit.com/r/hockey/comments/dcpa2v/nhl_led_matrix_scoreboard/) in October 2019. Furthermore, the code for this project was open source and available on GitHub. RiffnShred's project served as a huge source of inspiration for my own, especially for some graphics layouts. I began sketching  what I'd like my scoreboard to look like, both physically and what's displayed my the matrix. Many whiteboard iterations later and I had a good sense of what I wanted to create. You'll notice the main screen for games in progress is quite similar – as the old adage goes "imitation is the greatest form of flattery". You can check out RiffnShred's repository [here](https://github.com/riffnshred/nhl-led-scoreboard).
 
 <figure style="text-align: center;">
-  <a href="{{ site.url }}{{ site.baseurl }}/assets/posts/nhl-scoreboard/whiteboard-layout.jpg"><img src="{{ site.url }}{{ site.baseurl }}/assets/posts/nhl-scoreboard/whiteboard-layout.jpg" style='width: 85%;'>
+  <a href="{{ site.url }}{{ site.baseurl }}/assets/posts/nhl-scoreboard/2021-07/whiteboard-layout.jpg"><img src="{{ site.url }}{{ site.baseurl }}/assets/posts/nhl-scoreboard/2021-07/whiteboard-layout.jpg" style='width: 85%;'>
   </a>
   <figcaption>Early sketch of where elements should be displayed on the matrix.</figcaption>
 </figure>
@@ -58,7 +58,7 @@ At this time, I made another rule for myself – I would not copy code from Riff
 The remainder of this blog post will dive into more details of the project, how it functions at a high level, and technology that makes it all possible. But before then, here's a looks at the (nearly) finished product.
 
 <figure style="text-align: center;">
-  <a href="{{ site.url }}{{ site.baseurl }}/assets/posts/nhl-scoreboard/demo.gif"><img src="{{ site.url }}{{ site.baseurl }}/assets/posts/nhl-scoreboard/demo.gif" style='width: 85%;'>
+  <a href="{{ site.url }}{{ site.baseurl }}/assets/posts/nhl-scoreboard/2021-07/demo.gif"><img src="{{ site.url }}{{ site.baseurl }}/assets/posts/nhl-scoreboard/2021-07/demo.gif" style='width: 85%;'>
   </a>
 </figure>
 
@@ -67,7 +67,7 @@ The remainder of this blog post will dive into more details of the project, how 
 The hardware for this build is very simple. At the heart of the project is a Raspberry Pi 3B. The LED matrix is a 32x64 P4 hub75 matrix that I picked up on AliExpress for ~$20 CAD. Between the Raspberry Pi and the matrix is a Adafruit RGB Matrix Bonnet (this can be purchased from Digikey if you're outside of the US). This bonnet makes driving the matrix with a Raspberry Pi nearly plug and play (i.e. absolutely invaluable to the project). Powering everything is a 5V 8A power supply, also from AliExpress. And that's it!
 
 <figure style="text-align: center;">
-  <a href="{{ site.url }}{{ site.baseurl }}/assets/posts/nhl-scoreboard/rpi-far.jpg"><img src="{{ site.url }}{{ site.baseurl }}/assets/posts/nhl-scoreboard/rpi-far.jpg" style='width: 85%;'>
+  <a href="{{ site.url }}{{ site.baseurl }}/assets/posts/nhl-scoreboard/2021-07/rpi-far.jpg"><img src="{{ site.url }}{{ site.baseurl }}/assets/posts/nhl-scoreboard/2021-07/rpi-far.jpg" style='width: 85%;'>
   </a>
 </figure>
 
@@ -78,7 +78,7 @@ options.hardware_mapping = 'adafruit-hat-pwm'
 ```
 
 <figure style="text-align: center;">
-  <a href="{{ site.url }}{{ site.baseurl }}/assets/posts/nhl-scoreboard/rpi-close.jpg"><img src="{{ site.url }}{{ site.baseurl }}/assets/posts/nhl-scoreboard/rpi-close.jpg" style='width: 85%;'>
+  <a href="{{ site.url }}{{ site.baseurl }}/assets/posts/nhl-scoreboard/2021-07/rpi-close.jpg"><img src="{{ site.url }}{{ site.baseurl }}/assets/posts/nhl-scoreboard/2021-07/rpi-close.jpg" style='width: 85%;'>
   </a>
   <figcaption>Notice the small wire between pins 4 and 18.</figcaption>
 </figure>
@@ -96,18 +96,18 @@ All code for this project is written in Python 3.8. The basic logic of the score
 Both team's logos will also be displayed in all situations. In total, there's over a dozen different combinations of game statuses that have been accounted for, and due to the COVID-19 pandemic, even postponed games are accounted for! The API's date rolls over at about 11am EST the next day, so you'll see last nights scores when you get up in the morning (especially useful for those late west coast games).
 
 <figure style="text-align: center;">
-  <a href="{{ site.url }}{{ site.baseurl }}/assets/posts/nhl-scoreboard/demo-not-started.jpg"><img src="{{ site.url }}{{ site.baseurl }}/assets/posts/nhl-scoreboard/demo-not-started.jpg" style='width: 85%;'>
+  <a href="{{ site.url }}{{ site.baseurl }}/assets/posts/nhl-scoreboard/2021-07/demo-not-started.jpg"><img src="{{ site.url }}{{ site.baseurl }}/assets/posts/nhl-scoreboard/2021-07/demo-not-started.jpg" style='width: 85%;'>
   </a>
-  <a href="{{ site.url }}{{ site.baseurl }}/assets/posts/nhl-scoreboard/demo-ipr.jpg"><img src="{{ site.url }}{{ site.baseurl }}/assets/posts/nhl-scoreboard/demo-ipr.jpg" style='width: 85%;'>
+  <a href="{{ site.url }}{{ site.baseurl }}/assets/posts/nhl-scoreboard/2021-07/demo-ipr.jpg"><img src="{{ site.url }}{{ site.baseurl }}/assets/posts/nhl-scoreboard/2021-07/demo-ipr.jpg" style='width: 85%;'>
   </a>
-  <a href="{{ site.url }}{{ site.baseurl }}/assets/posts/nhl-scoreboard/demo-final.jpg"><img src="{{ site.url }}{{ site.baseurl }}/assets/posts/nhl-scoreboard/demo-final.jpg" style='width: 85%;'>
+  <a href="{{ site.url }}{{ site.baseurl }}/assets/posts/nhl-scoreboard/2021-07/demo-final.jpg"><img src="{{ site.url }}{{ site.baseurl }}/assets/posts/nhl-scoreboard/2021-07/demo-final.jpg" style='width: 85%;'>
   </a>
 </figure>
 
 Each game in the list is looped through and its image is displayed on the matrix for a few seconds before transitioning to the next image. At the end of the loop, a new API call is made to update the dictionaries, and the loop begins anew. The old list is not discarded though, it's actually used to determine if a team has scored. If the sore in the updated dictionary is larger than that in the old one, it is shown that the appropriate team has scored by having it's goal counter appear red for a few seconds before fading back to its normal white.
 
 <figure style="text-align: center;">
-  <a href="{{ site.url }}{{ site.baseurl }}/assets/posts/nhl-scoreboard/demo-goal.gif"><img src="{{ site.url }}{{ site.baseurl }}/assets/posts/nhl-scoreboard/demo-goal.gif" style='width: 85%;'>
+  <a href="{{ site.url }}{{ site.baseurl }}/assets/posts/nhl-scoreboard/2021-07/demo-goal.gif"><img src="{{ site.url }}{{ site.baseurl }}/assets/posts/nhl-scoreboard/2021-07/demo-goal.gif" style='width: 85%;'>
   </a>
   <figcaption style="text-align: left;">Seems like I don't have a video of the goal animation from after I implemented the fade transition... Oops, I'll get that next season. Scan lines are due to the camera and are not visible to the human eye.</figcaption>
 </figure>
