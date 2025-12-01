@@ -29,6 +29,8 @@ Here's some of the new features:
 - You'll now have the ability to set a favourite team and see that team's next game.
 - You can view standings for any combination of wildcard, division, conference, or overall.
 
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=dtqFqR9JHCA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+
 <figure style="text-align: center;">
   <a href="{{ site.url }}{{ site.baseurl }}/assets/posts/nhl-scoreboard/2025-11/ex_nhl_fav_team_next_game.jpg">
     <img src="{{ site.url }}{{ site.baseurl }}/assets/posts/nhl-scoreboard/2025-11/ex_nhl_fav_team_next_game.jpg" style='width: 85%;'>
