@@ -3,19 +3,20 @@ title: "LED Matrix NHL Scoreboard — Updates November 2025"
 date: 2025-11-28T09:00:00-04:00
 show_date: true
 header:
-  overlay_image: assets/posts/nhl-scoreboard/2025-11/ex_nhl_fav_team_next_game.jpg
+  overlay_image: assets/posts/sports-scoreboard/2025-11/ex_nhl_fav_team_next_game.jpg
   overlay_filter: 0.5
-  teaser: assets/posts/nhl-scoreboard/2025-11/ex_nhl_fav_team_next_game.jpg
+  teaser: assets/posts/sports-scoreboard/2025-11/ex_nhl_fav_team_next_game.jpg
   actions:
     - label: "GitHub Repository"
-      url: "https://github.com/gidger/rpi-led-nhl-scoreboard"
+      url: "https://github.com/gidger/rpi-led-sports-scoreboard"
 excerpt: "November 2025 updates to the Raspberry Pi LED NHL Scoreboard."
 categories:
-  - NHL Scoreboard
+  - Sports Scoreboard
 tags:
   - LED
   - Raspberry Pi
   - Sports
+  - NHL
 toc: false
 
 ---
@@ -32,14 +33,14 @@ Here's some of the new features:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dtqFqR9JHCA?si=C9POcf6CL1PxFehB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
 
 <figure style="text-align: center;">
-  <a href="{{ site.url }}{{ site.baseurl }}/assets/posts/nhl-scoreboard/2025-11/ex_nhl_fav_team_next_game.jpg">
-    <img src="{{ site.url }}{{ site.baseurl }}/assets/posts/nhl-scoreboard/2025-11/ex_nhl_fav_team_next_game.jpg" style='width: 85%;'>
+  <a href="{{ site.url }}{{ site.baseurl }}/assets/posts/sports-scoreboard/2025-11/ex_nhl_fav_team_next_game.jpg">
+    <img src="{{ site.url }}{{ site.baseurl }}/assets/posts/sports-scoreboard/2025-11/ex_nhl_fav_team_next_game.jpg" style='width: 85%;'>
   </a>
 </figure>
 
 <figure style="text-align: center;">
-  <a href="{{ site.url }}{{ site.baseurl }}/assets/posts/nhl-scoreboard/2025-11/ex_nhl_standings_wildcard.jpg">
-    <img src="{{ site.url }}{{ site.baseurl }}/assets/posts/nhl-scoreboard/2025-11/ex_nhl_standings_wildcard.jpg" style='width: 85%;'>
+  <a href="{{ site.url }}{{ site.baseurl }}/assets/posts/sports-scoreboard/2025-11/ex_nhl_standings_wildcard.jpg">
+    <img src="{{ site.url }}{{ site.baseurl }}/assets/posts/sports-scoreboard/2025-11/ex_nhl_standings_wildcard.jpg" style='width: 85%;'>
   </a>
 </figure>
 
@@ -48,7 +49,7 @@ I'll write here more often as the project progresses. Some planned upcoming func
 - Add in a "leaders" scene, showing the goal/point/whatever leaders for a league.
 - Create a local web app to configure settings via a GUI rather than manually editing config.yaml.
 
-You can view all the code for this project, along with installation instructions, at my GitHub Repository [here](https://github.com/gidger/rpi-led-nhl-scoreboard).
+You can view all the code for this project, along with installation instructions, at my GitHub Repository [here](https://github.com/gidger/rpi-led-sports-scoreboard).
 
 If you have any questions feel free to shoot me an email at [stephen@gidge.dev](mailto: stephen@gidge.dev).
 
