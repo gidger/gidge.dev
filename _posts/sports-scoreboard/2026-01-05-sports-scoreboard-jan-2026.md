@@ -1,5 +1,5 @@
 ---
-title: "LED Matrix Sports Scoreboard — Updates January 2026"
+title: "LED Matrix Sports Scoreboard — Updates January 2026 (NBA)"
 date: 2026-01-05T09:00:00-04:00
 show_date: true
 header:

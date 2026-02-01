@@ -1,5 +1,5 @@
 ---
-title: "LED Matrix NHL Scoreboard — Updates November 2025"
+title: "LED Matrix NHL Scoreboard — Updates November 2025 (Docker & Refactor)"
 date: 2025-11-28T09:00:00-04:00
 show_date: true
 header:
