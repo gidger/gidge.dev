@@ -3,9 +3,9 @@ title: "LED Matrix Sports Scoreboard — Updates February 2026 (PWHL)"
 date: 2026-02-01T09:00:00-04:00
 show_date: true
 header:
-  overlay_image: assets/posts/sports-scoreboard/2026-01/ex_pwhl_game_not_started.jpg
+  overlay_image: assets/posts/sports-scoreboard/2026-02/ex_pwhl_game_not_started.jpg
   overlay_filter: 0.5
-  teaser: assets/posts/sports-scoreboard/2026-01/ex_pwhl_game_not_started.jpg
+  teaser: assets/posts/sports-scoreboard/2026-02/ex_pwhl_game_not_started.jpg
   actions:
     - label: "GitHub Repository"
       url: "https://github.com/gidger/rpi-led-sports-scoreboard"
@@ -33,13 +33,13 @@ Here's a video of it in action, as well as some additional screenshots.
 
 <figure style="text-align: center;">
   <a href="{{ site.url }}{{ site.baseurl }}/assets/posts/sports-scoreboard/2026-02/ex_pwhl_game_splash.jpg">
-    <img src="{{ site.url }}{{ site.baseurl }}/assets/posts/sports-scoreboard/2026-01/ex_pwhl_game_splash.jpg" style='width: 85%;'>
+    <img src="{{ site.url }}{{ site.baseurl }}/assets/posts/sports-scoreboard/2026-02/ex_pwhl_game_splash.jpg" style='width: 85%;'>
   </a>
 </figure>
 
 <figure style="text-align: center;">
-  <a href="{{ site.url }}{{ site.baseurl }}/assets/posts/sports-scoreboard/2026-01/ex_pwhl_game_not_started.jpg">
-    <img src="{{ site.url }}{{ site.baseurl }}/assets/posts/sports-scoreboard/2026-01/ex_pwhl_game_not_started.jpg" style='width: 85%;'>
+  <a href="{{ site.url }}{{ site.baseurl }}/assets/posts/sports-scoreboard/2026-02/ex_pwhl_game_not_started.jpg">
+    <img src="{{ site.url }}{{ site.baseurl }}/assets/posts/sports-scoreboard/2026-02/ex_pwhl_game_not_started.jpg" style='width: 85%;'>
   </a>
 </figure>
 
