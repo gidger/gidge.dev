@@ -5,7 +5,7 @@ show_date: true
 header:
   overlay_image: assets/posts/sports-scoreboard/2026-04/ex_mlb_game_in_progress_with_details.jpg
   overlay_filter: 0.5
-  teaser: assets/posts/sports-scoreboard/2026-02/ex_mlb_game_in_progress_with_details.jpg
+  teaser: assets/posts/sports-scoreboard/2026-04/ex_mlb_game_in_progress_with_details.jpg
   actions:
     - label: "GitHub Repository"
       url: "https://github.com/gidger/rpi-led-sports-scoreboard"
